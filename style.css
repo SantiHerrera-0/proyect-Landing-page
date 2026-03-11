@@ -11,34 +11,12 @@ body{
     display: flex;
     flex-direction: column;
     height: 500px;
-    border:solid red;
     padding: 0px 200px 100px 200px;
-    gap:150px;
+    gap:100px;
     background-color: #1F2937;
 }
 
-.info{
-    border:solid green;
-    height: 500px;
-}
-
-.quote{
-    border:solid orange;
-}
-
-.bottom{
-    border: solid purple;
-}
-
-.footer{
-    border:solid red;
-    height: 72px;
-    margin-top: auto;
-
-}
-    
 .contenedor1,.contenedor2{
-    border:solid red;
     height: 72px;
 }
 
@@ -72,16 +50,12 @@ ul{
     flex-grow: 1;
 }
 
-.contenido2-0,.contenido2-1{
-    border: solid yellow;
-}
-
 .contenido2-0{
     display: flex;
     flex-direction: column;
     gap:16px;
     padding: 16px 50px 16px 0px;
-    width:30%
+    width:30%;
 }
 
 .heromain{
@@ -94,7 +68,6 @@ ul{
 }
 
 .boton1{
-    margin-top: auto;
     width: 100px;
     padding: 8px;
     border-radius: 15%;
@@ -103,3 +76,66 @@ ul{
     font-weight: 700;
     color: #E5E7Eb;
 }
+
+.info{
+    border:solid green;
+    height: 500px;
+}
+
+.tituloinfo{
+    display: flex;
+    border:solid red;
+    justify-content: center;
+    margin:40px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.contenedor3{
+    border:solid red;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+    gap:32px
+    
+}
+.contenido3{
+    border:solid #3882F6;
+    width: 200px;
+    border-radius: 10%;
+    flex-grow: 1;
+    
+}
+
+.auxiliar{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+.texto{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.quote{
+    border:solid orange;
+}
+
+.bottom{
+    border: solid purple;
+}
+
+.footer{
+    border:solid red;
+    height: 72px;
+    margin-top: auto;
+
+}
+    
