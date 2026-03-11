@@ -78,13 +78,11 @@ ul{
 }
 
 .info{
-    border:solid green;
     height: 500px;
 }
 
 .tituloinfo{
     display: flex;
-    border:solid red;
     justify-content: center;
     margin:40px;
     font-size: 36px;
@@ -93,7 +91,6 @@ ul{
 }
 
 .contenedor3{
-    border:solid red;
     height: 50%;
     display:flex;
     justify-content: center;
