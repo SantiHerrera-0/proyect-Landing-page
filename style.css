@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    height: 500px;
+    border:solid red;
+}
+
+.info{
+    border:solid green;
+    height: 500px;
+}
+
+.quote{
+    border:solid orange;
+}
+
+.bottom{
+    border: solid purple;
+}
+
+.footer{
+    border:solid red;
+    height: 72px;
+    margin-top: auto;
+
+}
+    
