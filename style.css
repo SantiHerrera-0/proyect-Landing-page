@@ -200,12 +200,22 @@ ul{
     background: #3882F6;
 }
 
-
-
 .footer{
     border:solid red;
-    height: 72px;
+    display:flex;
+    height: 125px;
     margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
 
+.contenedor9{
+    border:solid green;
+    display:flex;
+    gap:7px;
+    font-size: 18px;
+    
 }
     
