@@ -134,6 +134,7 @@ ul{
     font-style:italic;
     padding: 32px;
     padding-bottom: 0;
+    
 }
 .contenedor5{
     display: flex;
@@ -142,22 +143,70 @@ ul{
     font-size: 22px;
 }
 .auxiliarquote{
-    width:50%;
+    width: 50%;
 }
-
-
-
-
-
-
-
-
-
 
 
 .bottom{
     border: solid purple;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contenedor6{
+    border:solid green;
+    display:flex;
+    width: 70%;
+    height: 40%;
+    background-color: #3882F6;
+}
+
+.auxiliarbottom{
+    border: solid red;
+    display:flex;
+    flex-grow: 1;
+}
+
+.contenedor7{
+    border:solid yellow;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    padding-left: 150px;
+    color:white;
+    
+}
+
+.texto2{
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+
+.contenedor8{
+    border:solid black;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor8 button{
+    padding: 8px 26px;
+    border-radius: 11%;    
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background: #3882F6;
+    
+}
+
+
 
 .footer{
     border:solid red;
