@@ -115,15 +115,49 @@ ul{
     text-align: center;
 }
 
-
-
-
-
-
-
 .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border:solid orange;
+    height: 500px;
+    background-color: #E5E7Eb;
+    
 }
+
+.contenedor4{
+    border: solid red;
+    display:flex;
+    flex-shrink: 1;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;    
+    font-style:italic;
+    padding: 32px;
+    padding-bottom: 0;
+}
+.contenedor5{
+    border:solid red;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 22px;
+}
+.auxiliarquote{
+    width:50%;
+    border:solid green;
+}
+
+
+
+
+
+
+
+
+
+
 
 .bottom{
     border: solid purple;
