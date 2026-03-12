@@ -148,7 +148,6 @@ ul{
 
 
 .bottom{
-    border: solid purple;
     height: 350px;
     display:flex;
     justify-content: center;
@@ -156,7 +155,6 @@ ul{
 }
 
 .contenedor6{
-    border:solid green;
     display:flex;
     width: 70%;
     height: 40%;
@@ -164,13 +162,11 @@ ul{
 }
 
 .auxiliarbottom{
-    border: solid red;
     display:flex;
     flex-grow: 1;
 }
 
 .contenedor7{
-    border:solid yellow;
     display: flex;
     flex-direction: column;
     width:50%;
@@ -188,7 +184,6 @@ ul{
 
 
 .contenedor8{
-    border:solid black;
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -203,7 +198,6 @@ ul{
     font-size: 16px;
     font-weight: 700;
     background: #3882F6;
-    
 }
 
 
