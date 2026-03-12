@@ -201,7 +201,6 @@ ul{
 }
 
 .footer{
-    border:solid red;
     display:flex;
     height: 125px;
     margin-top: auto;
@@ -212,7 +211,6 @@ ul{
 }
 
 .contenedor9{
-    border:solid green;
     display:flex;
     gap:7px;
     font-size: 18px;
